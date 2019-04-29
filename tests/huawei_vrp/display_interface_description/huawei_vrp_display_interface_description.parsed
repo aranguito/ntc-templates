@@ -1,0 +1,37 @@
+---
+parsed_sample:
+
+- interface: "Aux0/0/1"
+  phy: "down"
+  protocol: "down"
+  description: "HUAWEI, Aux0/0/1 Interface"
+ 
+- interface: "Eth-Trunk2"
+  phy: "up"
+  protocol: "up"
+  description: "TO MEO_CX600-X16_02... (BACKUP)"
+ 
+- interface: "Eth-Trunk5"
+  phy: "up"
+  protocol: "down"
+  description: "TO_CR1BAT3_Port-Channel5"
+ 
+- interface: "Eth-Trunk5.10"
+  phy: "up"
+  protocol: "up"
+  description: "IU-U_TO_CR1BAT3_PortChannel5"
+ 
+- interface: "Eth-Trunk5.25"
+  phy: "up"
+  protocol: "up"
+  description: "Conexion_ CR1BAT3_P..._APNP_MIO"
+ 
+- interface: "GE7/1/1(10G)"
+  phy: "*down"
+  protocol: "down"
+  description: "puerto-defectuoso"
+ 
+- interface: "Loop15"
+  phy: "up"
+  protocol: "up(s)"
+  description: "Trafico_DATA_EEE"
