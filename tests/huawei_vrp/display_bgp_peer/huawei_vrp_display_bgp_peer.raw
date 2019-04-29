@@ -1,0 +1,12 @@
+
+ BGP local router ID : 10.99.0.4
+ Local AS number : 95551
+ Total number of peers : 5                Peers in established state : 2
+
+  Peer            V          AS  MsgRcvd  MsgSent  OutQ  Up/Down       State PrefRcv
+
+  10.66.81.118    4       29239        0        0     0 ****h11m     Connect       0
+  10.66.81.142    4       29239        0        0     0 ****h11m     Connect       0
+  10.66.81.150    4       29239        0        0     0 ****h11m     Connect       0
+  10.66.0.1       4       25231 38119308   492299     0 8166h39m Established     412
+  10.66.0.2       4       25231 59708773   718586     0 ****h38m Established     412
