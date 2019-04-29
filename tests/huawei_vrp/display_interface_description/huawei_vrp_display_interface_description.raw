@@ -1,0 +1,18 @@
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+Interface                     PHY     Protocol Description
+Aux0/0/1                      down    down     HUAWEI, Aux0/0/1 Interface
+Eth-Trunk2                    up      up       TO MEO_CX600-X16_02 LAYER 2 (BACKUP)
+Eth-Trunk5                    up      down     TO_CR1BAT3_Port-Channel5
+Eth-Trunk5.10                 up      up       IU-U_TO_CR1BAT3_PortChannel5
+Eth-Trunk5.25                 up      up       Conexion_ CR1BAT3_PS_APNP_MIO
+GE7/1/1(10G)                  *down   down     puerto-defectuoso
+Loop15                        up      up(s)    Trafico_DATA_EEE
