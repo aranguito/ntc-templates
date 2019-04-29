@@ -1,0 +1,16 @@
+Value Filldown ROUTER_ID (\S+)
+Value Filldown LOCAL_AS (\S+)
+Value Required PEER (\S+)
+Value VERSION (\d+)
+Value AS (\S+)
+Value MSGRCVD (\d+)
+Value MSGSENT (\d+)
+Value OUTQ (\d+)
+Value UP_DOWN (\S+)
+Value STATE (\S+)
+Value PREFRCV (\d+)
+
+Start
+  ^\s*BGP\s+local\s+router\s+ID\s+\:\s+${ROUTER_ID}
+  ^\s*Local\s+AS\s+number\s+\:\s+${LOCAL_AS} 
+  ^\s*${PEER}\s+${VERSION}\s+${AS}\s+${MSGRCVD}\s+${MSGSENT}\s+${OUTQ}\s+${UP_DOWN}\s+${STATE}\s+${PREFRCV} -> Record
